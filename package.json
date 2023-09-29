@@ -1,0 +1,42 @@
+{
+    "name": "express-boilerplate",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "engines": {
+        "node": ">=18.16.0",
+        "yarn": ">=1.22.19",
+        "npm": "please-use-yarn"
+    },
+    "scripts": {
+        "prettier": "prettier --write .",
+        "lint": "eslint . --fix",
+        "prepare": "husky install",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "compression": "1.7.4",
+        "cors": "2.8.5",
+        "express": "^4.18.2",
+        "helmet": "7.0.0",
+        "joi": "17.10.2",
+        "pm2": "5.3.0",
+        "swagger-jsdoc": "6.2.8",
+        "swagger-ui-express": "5.0.0",
+        "xss-clean": "0.1.4"
+    },
+    "devDependencies": {
+        "@commitlint/cli": "17.7.2",
+        "@commitlint/config-conventional": "17.7.0",
+        "eslint": "^8.50.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-plugin-import": "^2.28.1",
+        "eslint-plugin-prettier": "^5.0.0",
+        "husky": "8.0.3",
+        "nodemon": "^3.0.1",
+        "prettier": "^3.0.3"
+    }
+}
