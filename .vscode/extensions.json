@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "lllllllqw.jsdoc",
+        "prisma.prisma",
+        "christian-kohler.npm-intellisense"
+    ]
+}
